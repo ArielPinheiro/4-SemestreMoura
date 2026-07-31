@@ -1,0 +1,9 @@
+{
+  "taskpoints": [
+    {
+      "description": "Algo a ser editado",
+      "id": "rk2uxwtk9ng"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
