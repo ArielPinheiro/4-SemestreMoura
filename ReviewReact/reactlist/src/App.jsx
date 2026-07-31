@@ -10,6 +10,8 @@ function App() {
     { id: 2, description: "Revisar Css" },
     { id: 3, description: "Revisar ReactJs" },
     { id: 4, description: "Revisar React Native" },
+    { id: 5, description: "Revisar React Native" },
+    { id: 6, description: "Revisar React Native" }
   ]);
 
   return (
