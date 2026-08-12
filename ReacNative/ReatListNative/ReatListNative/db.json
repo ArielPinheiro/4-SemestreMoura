@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "title": "AlgoTeste1",
+      "id": "_4M8XymUWws"
+    },
+    {
+      "title": "Funcionando",
+      "id": "5FqwCwbvj58"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

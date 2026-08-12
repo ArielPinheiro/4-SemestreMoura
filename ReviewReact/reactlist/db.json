@@ -3,6 +3,10 @@
     {
       "description": "Algo a ser editado",
       "id": "rk2uxwtk9ng"
+    },
+    {
+      "description": "Algo novo",
+      "id": "lyW0uQ5y87E"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
