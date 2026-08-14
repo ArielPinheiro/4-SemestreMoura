@@ -88,15 +88,10 @@ export const TaskProvider = ({ children }) => {
     }
   };
 
-  // Buscar tarefas quando o Provider iniciar
-  // Buscar tarefas quando o Provider iniciar, e depois a cada 5 segundos
+ 
+  // Buscar tarefas quando o Provider inicia
 useEffect(() => {
   getTask(); // busca inicial
-
-  const interval = setInterval(() => {
-    getTask();
-  }, 1000); // 1000ms = 1 segundos
-
   return () => clearInterval(interval); // limpa o intervalo quando o Provider desmontar
 }, []);
 

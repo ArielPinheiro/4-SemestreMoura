@@ -34,7 +34,7 @@ export default function FormTask({ onAdd, editingTask, onSaveEdit, onCancelEdit 
 
       <TouchableOpacity style={styles.button} onPress={handlePress}>
         <Text style={styles.buttonText}>
-          {isEditing ? "Editar" : "Adicionar"}
+          {isEditing ? "Editar" : "Salvar"}
         </Text>
       </TouchableOpacity>
 
